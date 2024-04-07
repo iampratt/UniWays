@@ -13,9 +13,9 @@
     },
     "plugins": [
       [
-        "expo-font",
+        "expo-location",
         {
-          "fonts": ["./UniWays/assets/fonts/*.ttf"]
+          "locationAlwaysAndWhenInUsePermission": "Allow UniWays to use your location."
         }
       ]
     ],

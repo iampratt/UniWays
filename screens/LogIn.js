@@ -11,7 +11,7 @@ import { useState } from 'react';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 const logo = require('../assets/logo.png');
 
-export default Login = ({ navigation }) => {
+export default LogIn = ({ navigation }) => {
   const [email, setEmail] = useState('');
   const [passw, setPassw] = useState('');
   const insets = useSafeAreaInsets();
@@ -48,7 +48,7 @@ export default Login = ({ navigation }) => {
       </KeyboardAvoidingView>
       <Pressable
         onPress={() => {
-          alert('Login Successful');
+          navigation.navigate('StudDash');
         }}
       >
         <View style={styles.button}>

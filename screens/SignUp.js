@@ -8,7 +8,6 @@ import {
   Pressable,
   KeyboardAvoidingView,
   ScrollView,
-  SafeAreaView,
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 const logo = require('../assets/logo.png');
